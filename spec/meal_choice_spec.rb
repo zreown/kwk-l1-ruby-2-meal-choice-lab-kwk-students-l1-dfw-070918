@@ -31,7 +31,7 @@ describe "#lunch" do
     expect(lunch("peanut butter").downcase).to include("peanut butter")
   end
 
-    it 'Returns Frosted Flakes interpolated in the string when there is no argument' do
+    it 'Returns grilled cheese interpolated in the string when there is no argument' do
     expect(lunch).to include("grilled cheese")
   end
 
