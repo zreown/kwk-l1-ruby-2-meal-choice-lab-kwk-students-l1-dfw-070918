@@ -19,8 +19,8 @@ describe "#breakfast" do
     expect(breakfast("pancakes").downcase).to include("pancakes")
   end
 
-    it 'Returns Frosted Flakes interpolated in the string when there is no argument' do
-    expect(breakfast).to include("Frosted Flakes")
+    it 'Returns frosted flakes interpolated in the string when there is no argument' do
+    expect(breakfast).to include("frosted flakes")
   end
 
 end
